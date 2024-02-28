@@ -42,7 +42,3 @@ closeSignupFormButton.addEventListener('click', (e)=>{
 	e.preventDefault();
 	signupFormContainer.style.display = 'none';
 })
-
-// signInForm.addEventListener('submit', (e)=>{
-// 	e.preventDefault();
-// })

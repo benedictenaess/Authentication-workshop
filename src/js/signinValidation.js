@@ -51,6 +51,6 @@ const validateSignInForm = (email, password, emailErrorElement, passErrorElement
 	}
 
 	return {signInFormStatus}
-};
+}
 
 export {validateSignInForm}

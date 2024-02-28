@@ -9,6 +9,10 @@ body {
 	height: 100vh;
 }
 
+button {
+	cursor: pointer;
+}
+
 header {
 	height: 10%;
 	display: flex;
@@ -41,7 +45,7 @@ footer {
 	padding: 2rem;
 	gap: 1rem;
 	border-radius: 0.25rem;
-	background-color: rgb(255, 111, 0);
+	background-color: rgb(255, 129, 32);
 }
 
 .email, 
@@ -59,9 +63,49 @@ footer {
 	visibility: hidden;
 }
 
-.sing-up-form__open {
+.sign-up-form__open {
 	background-color: transparent;
 	border: none;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+/* SIGN UP */
+.sign-up-form-container {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 90%;
+	padding: 2rem;
+	background-color: lightcoral;
+	border-radius: 0.25rem;
+}
+
+.sign-up-form {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	gap: 1rem;
+}
+
+.sign-up-form input,
+.sign-up-form button {
+	height: 2rem;
+}
+
+.sign-up-error {
+	visibility: hidden;
+}
+
+.close-sign-up-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sign-up-form__close {
+	width: 1.5rem;
+	height: 1.5rem;
 }

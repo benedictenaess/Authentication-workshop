@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../src/style/style.css">
+	<title>Sign in</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome</h1>
+		<button class="sing-out-button">Sign out</button>
+	</header>
+	<main>
+		<form class="sign-in-form">
+			<label for="email">Email<sup>*</sup></label>
+			<input type="email" name="email" class="email">
+			<p class="email-error">error</p>
+
+			<label for="password">Password<sup>*</sup></label>
+			<input type="password" name="password" class="password">
+			<p class="password-error">error</p>
+
+			<button class="sign-in-button">Sign in</button>
+			<p></p>
+			<p></p>
+			<p>Don't have an account? Create one
+				<button class="sing-up-form__open">here</button>
+			</p>
+			<p class="submission-error">Error</p>
+		</form>
+	</main>
+	<footer>
+		All rights reserved
+	</footer>
+	<script src="../src/js/app.js"></script>
+</body>
+</html>

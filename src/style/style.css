@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+header {
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	background-color: darkgreen;
+}
+
+main {
+	position: relative;
+	height: 80%;
+	background-color: pink;
+}
+
+footer {
+	height: 10%;
+	background-color: darkgreen;
+}
+
+.sign-in-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	gap: 1rem;
+	border-radius: 0.25rem;
+	background-color: rgb(255, 111, 0);
+}
+
+.email, 
+.password {
+	height: 2rem;
+}
+
+.sign-in-button {
+	height: 2rem;
+}
+
+.email-error,
+.password-error,
+.submission-error {
+	visibility: hidden;
+}
+
+.sing-up-form__open {
+	background-color: transparent;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
